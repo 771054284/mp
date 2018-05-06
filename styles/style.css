@@ -1,0 +1,62 @@
+/* General styles - put these straight into your stylesheet */
+
+body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica neue', Arial, 'sans serif';
+  font-size: 10px;
+  background-color: #ccc;
+}
+
+
+.card{
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-color:  #FF3D3D;
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+}
+
+.card img
+{ max-height: 100%;
+  max-width: 100%;
+  float: right;
+}
+.card p#article
+{ color : #FFFFFF;
+line-height:1.6em;
+padding: 5px  10px  5px  10px;
+
+}
+.card p#footer
+{ line-height:1.6em;
+
+padding: 10px 10px 10px 10px;
+
+}
+.card article
+{
+
+background-color:#FF9E3D;
+height: 12em; width:35em;
+}
+.card footer
+{
+  border-radius: 0 0 1.5em 1.5em;
+}
+.card header
+{
+  
+margin: 10px 10px 10px 10px;
+  border-radius: 1.5em 1.5em 0 0;
+}
+
+
+
+
+
+
+
